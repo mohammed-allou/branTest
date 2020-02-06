@@ -1,0 +1,31 @@
+
+#conteneur
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+
+    
+}
+
+.element-1 /* On prend le deuxième bloc élément */
+{
+    background-color: blue;
+    border: solid black;
+   /* align-self: flex-end; /* Seul ce bloc sera aligné à la fin */
+   
+    padding: 50px;
+}
+.element-2
+{
+	background-color: red;
+	border: solid;
+	padding: 50px;
+	
+} 
+.element-3
+{
+	background-color: green;
+	border: solid black;
+	padding: 50px;
+}
