@@ -2,18 +2,12 @@
 #conteneur
 {
     display: flex;
-    flex-wrap: wrap;
-    align-content: space-between;
-
-    
+    flex-wrap: wrap;   
 }
-
-.element-1 /* On prend le deuxième bloc élément */
+.element-1 
 {
     background-color: blue;
     border: solid black;
-   /* align-self: flex-end; /* Seul ce bloc sera aligné à la fin */
-   
     padding: 50px;
 }
 .element-2
@@ -21,7 +15,6 @@
 	background-color: red;
 	border: solid;
 	padding: 50px;
-	
 } 
 .element-3
 {
